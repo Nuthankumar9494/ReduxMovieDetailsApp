@@ -1,0 +1,70 @@
+
+.card-body{
+    padding: 10px;
+}
+
+.card-body:hover{
+    box-shadow: 20px 20px 100px rgb(75, 72, 72);
+    border-radius: 6px;
+    transform: scale(1.1);
+    transition: all 0.4s;
+
+
+}
+
+.poster img {
+    width: 310px !important;
+    height: 400px !important;
+    border-radius: 10px;
+}
+
+
+
+
+.movieTitle h4{
+    color: white;
+    margin-top: 8px;
+    word-wrap: break-word;
+    font-weight: 600;
+    font-size: 15px;
+    text-align: left;
+    overflow-wrap: break-word;
+    margin-bottom: 5px;
+}
+
+.card-list{
+    position: relative;
+}
+
+.star-button {
+    display: inline-block;
+    cursor: pointer;
+    font-size: 24px;
+    color: #ccc; /* Default color for the star */
+    z-index: 999;
+    position: absolute;
+    top: 25px;
+    right: 25px;
+    background-color: white;
+    color: black;
+    border-radius: 5px;
+}
+
+/* Style the star when it's favorited (active) */
+.star-button.active {
+    color: gold;
+}
+
+.remove{
+    display: inline-block;
+    cursor: pointer;
+    font-size: 24px;
+    color: #ccc; /* Default color for the star */
+    z-index: 999;
+    position: absolute;
+    top: 25px;
+    right: 25px;
+    background-color: white;
+    color: black;
+    border-radius: 5px;
+}

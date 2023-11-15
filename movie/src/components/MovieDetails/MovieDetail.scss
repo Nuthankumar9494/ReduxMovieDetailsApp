@@ -1,0 +1,80 @@
+.back-groundImg{
+    // background-image: url('https://mcdn.wallpapersafari.com/medium/7/50/Z4Tuv5.jpg');
+    background-repeat: no-repeat;
+    background-size:cover;
+   height: calc(100vh - 132px);
+}
+
+.totalDetails{
+    display: flex;
+    gap: 30px;
+    position: absolute;
+  top: 45%;
+  left: 40%;
+  -ms-transform: translate(-45%, -40%);
+  transform: translate(-45%, -40%);
+  margin-top: 50px;
+
+}
+
+// .totalDetails{
+//     backdrop-filter: blur(10px);
+// }
+.poster1 img{
+  max-width: 100%;
+  height: 600px;
+}
+
+// .MovieDetails{
+//  padding-top: 20px;
+// }
+
+
+.MovieDetails .MovieTitle{
+    color: rgb(254, 254, 255);
+    font-size: 30px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+.movieRating ul{
+    display: flex;
+    gap: 50px;
+    color: white;
+    margin-top: 10px;
+    margin-bottom: 6px;
+    font-size: 20px;
+}
+
+.item{
+    margin-top: 10px;
+    margin-bottom: 50px;
+    color: white;
+    font-size: 22px;
+    font-weight: 600;
+}
+
+@media screen and (max-width:991px){
+    .totalDetails{
+    display: flex;
+    gap: 30px;
+    position: absolute;
+      top: 50%;
+      left: 50%;
+      -ms-transform: translate(-50%, -50%);
+      transform: translate(-50%, -50%);
+      flex-wrap: wrap;
+      justify-content: center;
+      margin-top: 340px;
+    
+    }
+
+
+.item{
+    margin-top: 10px;
+    margin-bottom: 50px;
+    color: white;
+    font-size: 22px;
+    font-weight: 600;
+}
+}

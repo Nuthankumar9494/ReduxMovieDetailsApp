@@ -1,0 +1,26 @@
+@import '../../common//colors.scss';
+
+.footer{
+    display: flex;
+    background-color: $secondary-color;
+    width: 100%;
+    justify-content: space-evenly;
+    height: 60px;
+    align-items: center;
+    color: white;
+    font-size: 22px;
+    font-weight: 600px;
+    position: fixed;
+    bottom: 0px;
+}
+
+
+.subscription img{
+width: 50px;
+height: 50px;
+margin-top: 5px;
+}
+.copyrights{
+    display: flex;
+}
+
